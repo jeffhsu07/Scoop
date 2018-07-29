@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F050020210E66FF001627B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05001F210E66FF001627B2 /* AppDelegate.swift */; };
+		1F050022210E66FF001627B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F050021210E66FF001627B2 /* ViewController.swift */; };
+		1F050025210E66FF001627B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F050023210E66FF001627B2 /* Main.storyboard */; };
+		1F050027210E6700001627B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F050026210E6700001627B2 /* Assets.xcassets */; };
+		1F05002A210E6700001627B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F050028210E6700001627B2 /* LaunchScreen.storyboard */; };
+		1F050035210E6701001627B2 /* PoopScoopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F050034210E6701001627B2 /* PoopScoopTests.swift */; };
+		1F050040210E6701001627B2 /* PoopScoopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05003F210E6701001627B2 /* PoopScoopUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F050031210E6701001627B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F050014210E66FF001627B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F05001B210E66FF001627B2;
+			remoteInfo = PoopScoop;
+		};
+		1F05003C210E6701001627B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F050014210E66FF001627B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F05001B210E66FF001627B2;
+			remoteInfo = PoopScoop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F05001C210E66FF001627B2 /* PoopScoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoopScoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F05001F210E66FF001627B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F050021210E66FF001627B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F050024210E66FF001627B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F050026210E6700001627B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F050029210E6700001627B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F05002B210E6700001627B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F050030210E6701001627B2 /* PoopScoopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoopScoopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F050034210E6701001627B2 /* PoopScoopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoopScoopTests.swift; sourceTree = "<group>"; };
+		1F050036210E6701001627B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F05003B210E6701001627B2 /* PoopScoopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoopScoopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F05003F210E6701001627B2 /* PoopScoopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoopScoopUITests.swift; sourceTree = "<group>"; };
+		1F050041210E6701001627B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F050019210E66FF001627B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F05002D210E6701001627B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F050038210E6701001627B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F050013210E66FF001627B2 = {
+			isa = PBXGroup;
+			children = (
+				1F05001E210E66FF001627B2 /* PoopScoop */,
+				1F050033210E6701001627B2 /* PoopScoopTests */,
+				1F05003E210E6701001627B2 /* PoopScoopUITests */,
+				1F05001D210E66FF001627B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F05001D210E66FF001627B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F05001C210E66FF001627B2 /* PoopScoop.app */,
+				1F050030210E6701001627B2 /* PoopScoopTests.xctest */,
+				1F05003B210E6701001627B2 /* PoopScoopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F05001E210E66FF001627B2 /* PoopScoop */ = {
+			isa = PBXGroup;
+			children = (
+				1F05001F210E66FF001627B2 /* AppDelegate.swift */,
+				1F050021210E66FF001627B2 /* ViewController.swift */,
+				1F050023210E66FF001627B2 /* Main.storyboard */,
+				1F050026210E6700001627B2 /* Assets.xcassets */,
+				1F050028210E6700001627B2 /* LaunchScreen.storyboard */,
+				1F05002B210E6700001627B2 /* Info.plist */,
+			);
+			path = PoopScoop;
+			sourceTree = "<group>";
+		};
+		1F050033210E6701001627B2 /* PoopScoopTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F050034210E6701001627B2 /* PoopScoopTests.swift */,
+				1F050036210E6701001627B2 /* Info.plist */,
+			);
+			path = PoopScoopTests;
+			sourceTree = "<group>";
+		};
+		1F05003E210E6701001627B2 /* PoopScoopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F05003F210E6701001627B2 /* PoopScoopUITests.swift */,
+				1F050041210E6701001627B2 /* Info.plist */,
+			);
+			path = PoopScoopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F05001B210E66FF001627B2 /* PoopScoop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F050044210E6701001627B2 /* Build configuration list for PBXNativeTarget "PoopScoop" */;
+			buildPhases = (
+				1F050018210E66FF001627B2 /* Sources */,
+				1F050019210E66FF001627B2 /* Frameworks */,
+				1F05001A210E66FF001627B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoopScoop;
+			productName = PoopScoop;
+			productReference = 1F05001C210E66FF001627B2 /* PoopScoop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F05002F210E6701001627B2 /* PoopScoopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F050047210E6701001627B2 /* Build configuration list for PBXNativeTarget "PoopScoopTests" */;
+			buildPhases = (
+				1F05002C210E6701001627B2 /* Sources */,
+				1F05002D210E6701001627B2 /* Frameworks */,
+				1F05002E210E6701001627B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F050032210E6701001627B2 /* PBXTargetDependency */,
+			);
+			name = PoopScoopTests;
+			productName = PoopScoopTests;
+			productReference = 1F050030210E6701001627B2 /* PoopScoopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F05003A210E6701001627B2 /* PoopScoopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F05004A210E6701001627B2 /* Build configuration list for PBXNativeTarget "PoopScoopUITests" */;
+			buildPhases = (
+				1F050037210E6701001627B2 /* Sources */,
+				1F050038210E6701001627B2 /* Frameworks */,
+				1F050039210E6701001627B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F05003D210E6701001627B2 /* PBXTargetDependency */,
+			);
+			name = PoopScoopUITests;
+			productName = PoopScoopUITests;
+			productReference = 1F05003B210E6701001627B2 /* PoopScoopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F050014210E66FF001627B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Jeffrey Hsu";
+				TargetAttributes = {
+					1F05001B210E66FF001627B2 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					1F05002F210E6701001627B2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1F05001B210E66FF001627B2;
+					};
+					1F05003A210E6701001627B2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1F05001B210E66FF001627B2;
+					};
+				};
+			};
+			buildConfigurationList = 1F050017210E66FF001627B2 /* Build configuration list for PBXProject "PoopScoop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F050013210E66FF001627B2;
+			productRefGroup = 1F05001D210E66FF001627B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F05001B210E66FF001627B2 /* PoopScoop */,
+				1F05002F210E6701001627B2 /* PoopScoopTests */,
+				1F05003A210E6701001627B2 /* PoopScoopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F05001A210E66FF001627B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F05002A210E6700001627B2 /* LaunchScreen.storyboard in Resources */,
+				1F050027210E6700001627B2 /* Assets.xcassets in Resources */,
+				1F050025210E66FF001627B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F05002E210E6701001627B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F050039210E6701001627B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F050018210E66FF001627B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F050022210E66FF001627B2 /* ViewController.swift in Sources */,
+				1F050020210E66FF001627B2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F05002C210E6701001627B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F050035210E6701001627B2 /* PoopScoopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F050037210E6701001627B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F050040210E6701001627B2 /* PoopScoopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F050032210E6701001627B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F05001B210E66FF001627B2 /* PoopScoop */;
+			targetProxy = 1F050031210E6701001627B2 /* PBXContainerItemProxy */;
+		};
+		1F05003D210E6701001627B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F05001B210E66FF001627B2 /* PoopScoop */;
+			targetProxy = 1F05003C210E6701001627B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F050023210E66FF001627B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F050024210E66FF001627B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F050028210E6700001627B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F050029210E6700001627B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F050042210E6701001627B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F050043210E6701001627B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F050045210E6701001627B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PoopScoop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jeffrey-Hsu.PoopScoop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F050046210E6701001627B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PoopScoop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jeffrey-Hsu.PoopScoop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F050048210E6701001627B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PoopScoopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jeffrey-Hsu.PoopScoopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoopScoop.app/PoopScoop";
+			};
+			name = Debug;
+		};
+		1F050049210E6701001627B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PoopScoopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jeffrey-Hsu.PoopScoopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoopScoop.app/PoopScoop";
+			};
+			name = Release;
+		};
+		1F05004B210E6701001627B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PoopScoopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jeffrey-Hsu.PoopScoopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PoopScoop;
+			};
+			name = Debug;
+		};
+		1F05004C210E6701001627B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PoopScoopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jeffrey-Hsu.PoopScoopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PoopScoop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F050017210E66FF001627B2 /* Build configuration list for PBXProject "PoopScoop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F050042210E6701001627B2 /* Debug */,
+				1F050043210E6701001627B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F050044210E6701001627B2 /* Build configuration list for PBXNativeTarget "PoopScoop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F050045210E6701001627B2 /* Debug */,
+				1F050046210E6701001627B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F050047210E6701001627B2 /* Build configuration list for PBXNativeTarget "PoopScoopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F050048210E6701001627B2 /* Debug */,
+				1F050049210E6701001627B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F05004A210E6701001627B2 /* Build configuration list for PBXNativeTarget "PoopScoopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F05004B210E6701001627B2 /* Debug */,
+				1F05004C210E6701001627B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F050014210E66FF001627B2 /* Project object */;
+}
