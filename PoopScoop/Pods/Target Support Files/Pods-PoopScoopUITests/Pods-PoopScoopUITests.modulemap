@@ -1,0 +1,6 @@
+framework module Pods_PoopScoopUITests {
+  umbrella header "Pods-PoopScoopUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

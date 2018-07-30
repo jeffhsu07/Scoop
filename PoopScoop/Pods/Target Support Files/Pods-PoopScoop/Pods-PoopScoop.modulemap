@@ -1,0 +1,6 @@
+framework module Pods_PoopScoop {
+  umbrella header "Pods-PoopScoop-umbrella.h"
+
+  export *
+  module * { export * }
+}
