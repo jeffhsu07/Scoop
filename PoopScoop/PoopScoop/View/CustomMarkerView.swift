@@ -8,16 +8,16 @@
 
 import UIKit
 
-class CustomMarkView: UIView {
+class CustomMarkerView: UIView {
     var image: UIImage!
     var borderColor: UIColor!
     
-    init(frame: CGRect, image: UIImage, borderColor: UIColor, tag: Int) {
+    init(frame: CGRect, borderColor: UIColor) {
         super.init(frame: frame)
         
-        self.image = image
+        self.image = #imageLiteral(resourceName: "toilet")
         self.borderColor = borderColor
-        self.tag = tag
+        //self.tag = tag
         setupViews()
     }
     
@@ -36,7 +36,7 @@ class CustomMarkView: UIView {
         
         let nameLabel = UILabel(frame: CGRect(x: 0, y: 45, width: 50, height: 10))
         
-        nameLabel.text = "Swag"
+        nameLabel.text = "▾"
         nameLabel.font = UIFont.systemFont(ofSize: 24)
         nameLabel.textColor = borderColor
         nameLabel.textAlignment = .center

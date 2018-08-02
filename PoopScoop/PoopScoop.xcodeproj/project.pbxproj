@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		1F050020210E66FF001627B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05001F210E66FF001627B2 /* AppDelegate.swift */; };
 		1F050022210E66FF001627B2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F050021210E66FF001627B2 /* MapViewController.swift */; };
-		1F050025210E66FF001627B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F050023210E66FF001627B2 /* Main.storyboard */; };
 		1F050027210E6700001627B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F050026210E6700001627B2 /* Assets.xcassets */; };
 		1F05002A210E6700001627B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F050028210E6700001627B2 /* LaunchScreen.storyboard */; };
 		1F050035210E6701001627B2 /* PoopScoopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F050034210E6701001627B2 /* PoopScoopTests.swift */; };
 		1F050040210E6701001627B2 /* PoopScoopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05003F210E6701001627B2 /* PoopScoopUITests.swift */; };
-		1F050055210E995B001627B2 /* CustomMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F050054210E995B001627B2 /* CustomMarkView.swift */; };
+		1F050055210E995B001627B2 /* CustomMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F050054210E995B001627B2 /* CustomMarkerView.swift */; };
+		1F050057210F6722001627B2 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F050056210F6722001627B2 /* DetailsViewController.swift */; };
+		1F050059211240A2001627B2 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F050058211240A2001627B2 /* PreviewView.swift */; };
 		7FB3E63E76C23A5ECBC72574 /* Pods_PoopScoop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54CB44D416DEDFB5DBA6CC3A /* Pods_PoopScoop.framework */; };
 		BC47497530B98DAEC13404E7 /* Pods_PoopScoopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A216579349E25AC9E3CF0C /* Pods_PoopScoopTests.framework */; };
 		D38E24FAF743D34A39E0ED38 /* Pods_PoopScoopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26C096C4FA4EB37982385FC /* Pods_PoopScoopUITests.framework */; };
@@ -43,7 +44,6 @@
 		1F05001C210E66FF001627B2 /* PoopScoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoopScoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F05001F210E66FF001627B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F050021210E66FF001627B2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		1F050024210E66FF001627B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F050026210E6700001627B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F050029210E6700001627B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F05002B210E6700001627B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,7 +54,9 @@
 		1F05003F210E6701001627B2 /* PoopScoopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoopScoopUITests.swift; sourceTree = "<group>"; };
 		1F050041210E6701001627B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F050052210E6801001627B2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		1F050054210E995B001627B2 /* CustomMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMarkView.swift; sourceTree = "<group>"; };
+		1F050054210E995B001627B2 /* CustomMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMarkerView.swift; sourceTree = "<group>"; };
+		1F050056210F6722001627B2 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		1F050058211240A2001627B2 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
 		38D86C7F1B45D4BD89C877FC /* Pods-PoopScoop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoopScoop.release.xcconfig"; path = "Pods/Target Support Files/Pods-PoopScoop/Pods-PoopScoop.release.xcconfig"; sourceTree = "<group>"; };
 		54CB44D416DEDFB5DBA6CC3A /* Pods_PoopScoop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoopScoop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26C096C4FA4EB37982385FC /* Pods_PoopScoopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoopScoopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,8 +158,8 @@
 			isa = PBXGroup;
 			children = (
 				1F050028210E6700001627B2 /* LaunchScreen.storyboard */,
-				1F050023210E66FF001627B2 /* Main.storyboard */,
-				1F050054210E995B001627B2 /* CustomMarkView.swift */,
+				1F050054210E995B001627B2 /* CustomMarkerView.swift */,
+				1F050058211240A2001627B2 /* PreviewView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -166,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				1F050021210E66FF001627B2 /* MapViewController.swift */,
+				1F050056210F6722001627B2 /* DetailsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -312,7 +315,6 @@
 			files = (
 				1F05002A210E6700001627B2 /* LaunchScreen.storyboard in Resources */,
 				1F050027210E6700001627B2 /* Assets.xcassets in Resources */,
-				1F050025210E66FF001627B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,9 +418,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F050055210E995B001627B2 /* CustomMarkView.swift in Sources */,
+				1F050059211240A2001627B2 /* PreviewView.swift in Sources */,
+				1F050055210E995B001627B2 /* CustomMarkerView.swift in Sources */,
 				1F050022210E66FF001627B2 /* MapViewController.swift in Sources */,
 				1F050020210E66FF001627B2 /* AppDelegate.swift in Sources */,
+				1F050057210F6722001627B2 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,14 +458,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1F050023210E66FF001627B2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F050024210E66FF001627B2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1F050028210E6700001627B2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
