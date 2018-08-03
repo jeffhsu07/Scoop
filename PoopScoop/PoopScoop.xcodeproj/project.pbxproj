@@ -16,6 +16,7 @@
 		1F050055210E995B001627B2 /* CustomMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F050054210E995B001627B2 /* CustomMarkerView.swift */; };
 		1F050057210F6722001627B2 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F050056210F6722001627B2 /* DetailsViewController.swift */; };
 		1F050059211240A2001627B2 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F050058211240A2001627B2 /* PreviewView.swift */; };
+		1F05005B2114AF99001627B2 /* BathroomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05005A2114AF99001627B2 /* BathroomModel.swift */; };
 		7FB3E63E76C23A5ECBC72574 /* Pods_PoopScoop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54CB44D416DEDFB5DBA6CC3A /* Pods_PoopScoop.framework */; };
 		BC47497530B98DAEC13404E7 /* Pods_PoopScoopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A216579349E25AC9E3CF0C /* Pods_PoopScoopTests.framework */; };
 		D38E24FAF743D34A39E0ED38 /* Pods_PoopScoopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26C096C4FA4EB37982385FC /* Pods_PoopScoopUITests.framework */; };
@@ -57,6 +58,7 @@
 		1F050054210E995B001627B2 /* CustomMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMarkerView.swift; sourceTree = "<group>"; };
 		1F050056210F6722001627B2 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		1F050058211240A2001627B2 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		1F05005A2114AF99001627B2 /* BathroomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BathroomModel.swift; sourceTree = "<group>"; };
 		38D86C7F1B45D4BD89C877FC /* Pods-PoopScoop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoopScoop.release.xcconfig"; path = "Pods/Target Support Files/Pods-PoopScoop/Pods-PoopScoop.release.xcconfig"; sourceTree = "<group>"; };
 		54CB44D416DEDFB5DBA6CC3A /* Pods_PoopScoop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoopScoop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26C096C4FA4EB37982385FC /* Pods_PoopScoopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoopScoopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,6 +152,7 @@
 		1F05004D210E6738001627B2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1F05005A2114AF99001627B2 /* BathroomModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -423,6 +426,7 @@
 				1F050022210E66FF001627B2 /* MapViewController.swift in Sources */,
 				1F050020210E66FF001627B2 /* AppDelegate.swift in Sources */,
 				1F050057210F6722001627B2 /* DetailsViewController.swift in Sources */,
+				1F05005B2114AF99001627B2 /* BathroomModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
