@@ -73,7 +73,8 @@ class MapViewController: UIViewController {
         goToMyLocationButton.widthAnchor.constraint(equalToConstant: 50).isActive = true
         goToMyLocationButton.heightAnchor.constraint(equalTo: goToMyLocationButton.widthAnchor).isActive = true
         
-        restaurantPreviewView = PreviewView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: 190))
+        let previewViewHeight = view.frame.height / 4
+        restaurantPreviewView = PreviewView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: previewViewHeight))
     }
 
     private func initGoogleMaps() {
