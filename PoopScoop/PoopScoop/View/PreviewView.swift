@@ -14,7 +14,7 @@ class PreviewView: UIView {
     let nameLabel = UILabel()
     let addressLabel = UILabel()
     let ratingLabel = UILabel()
-    let viewReviewsButton = UIButton()
+    let viewReviewsLabel = UILabel()
     let labelContainerView = UIView()
     let imageContainerView = UIView()
     
@@ -69,10 +69,12 @@ class PreviewView: UIView {
         labelContainerView.addSubview(ratingLabel)
         
         //MARK: ViewReviewButton
-        viewReviewsButton.translatesAutoresizingMaskIntoConstraints = false
-        viewReviewsButton.setTitle("See Reviews", for: .normal)
-        viewReviewsButton.backgroundColor = UIColor.blue
-        addSubview(viewReviewsButton)
+        viewReviewsLabel.translatesAutoresizingMaskIntoConstraints = false
+        viewReviewsLabel.text = "Tap to see reviews"
+        viewReviewsLabel.adjustsFontSizeToFitWidth = true
+        viewReviewsLabel.textAlignment = .center
+        viewReviewsLabel.backgroundColor = UIColor.blue
+        addSubview(viewReviewsLabel)
         
         
     }
@@ -108,9 +110,9 @@ class PreviewView: UIView {
         ratingLabel.topAnchor.constraint(equalTo: addressLabel.bottomAnchor, constant: 2).isActive = true
         ratingLabel.heightAnchor.constraint(equalTo: addressLabel.heightAnchor).isActive = true
         
-        viewReviewsButton.topAnchor.constraint(equalTo: labelContainerView.bottomAnchor).isActive = true
-        viewReviewsButton.leftAnchor.constraint(equalTo: leftAnchor).isActive = true
-        viewReviewsButton.rightAnchor.constraint(equalTo: rightAnchor).isActive = true
-        viewReviewsButton.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
+        viewReviewsLabel.topAnchor.constraint(equalTo: labelContainerView.bottomAnchor).isActive = true
+        viewReviewsLabel.leftAnchor.constraint(equalTo: leftAnchor).isActive = true
+        viewReviewsLabel.rightAnchor.constraint(equalTo: rightAnchor).isActive = true
+        viewReviewsLabel.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
     }
 }
