@@ -17,6 +17,8 @@ class PreviewView: UIView {
     let viewReviewsLabel = UILabel()
     let labelContainerView = UIView()
     let imageContainerView = UIView()
+    let distanceLabel = UILabel()
+    let timeEstimateLabel = UILabel()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -68,6 +70,22 @@ class PreviewView: UIView {
         ratingLabel.textColor = UIColor.black
         labelContainerView.addSubview(ratingLabel)
         
+        //MARK: distanceLabel
+        distanceLabel.translatesAutoresizingMaskIntoConstraints = false
+        distanceLabel.text = "0.6 mi"
+        distanceLabel.font = UIFont.systemFont(ofSize: 12)
+        distanceLabel.textAlignment = .center
+        distanceLabel.textColor = UIColor.black
+        labelContainerView.addSubview(distanceLabel)
+        
+        //MARK: timeEstimateLabel
+        timeEstimateLabel.translatesAutoresizingMaskIntoConstraints = false
+        timeEstimateLabel.text = "5 min"
+        timeEstimateLabel.font = UIFont.systemFont(ofSize: 12)
+        timeEstimateLabel.textAlignment = .center
+        timeEstimateLabel.textColor = UIColor.black
+        labelContainerView.addSubview(timeEstimateLabel)
+        
         //MARK: ViewReviewButton
         viewReviewsLabel.translatesAutoresizingMaskIntoConstraints = false
         viewReviewsLabel.text = "Tap to see reviews"
@@ -97,8 +115,19 @@ class PreviewView: UIView {
         
         nameLabel.topAnchor.constraint(equalTo: topAnchor).isActive = true
         nameLabel.leftAnchor.constraint(equalTo: labelContainerView.leftAnchor).isActive = true
-        nameLabel.rightAnchor.constraint(equalTo: labelContainerView.rightAnchor).isActive = true
+        //nameLabel.rightAnchor.constraint(equalTo: labelContainerView.rightAnchor).isActive = true
+        nameLabel.widthAnchor.constraint(equalTo: labelContainerView.widthAnchor, multiplier: 1/3).isActive = true
         nameLabel.heightAnchor.constraint(equalTo: labelContainerView.heightAnchor, multiplier: 1/3).isActive = true
+        
+        distanceLabel.topAnchor.constraint(equalTo: topAnchor).isActive = true
+        distanceLabel.leftAnchor.constraint(equalTo: nameLabel.rightAnchor).isActive = true
+        distanceLabel.widthAnchor.constraint(equalTo: nameLabel.widthAnchor).isActive = true
+        distanceLabel.heightAnchor.constraint(equalTo: nameLabel.heightAnchor).isActive = true
+        
+        timeEstimateLabel.topAnchor.constraint(equalTo: topAnchor).isActive = true
+        timeEstimateLabel.leftAnchor.constraint(equalTo: distanceLabel.rightAnchor).isActive = true
+        timeEstimateLabel.widthAnchor.constraint(equalTo: nameLabel.widthAnchor).isActive = true
+        timeEstimateLabel.heightAnchor.constraint(equalTo: nameLabel.heightAnchor).isActive = true
         
         addressLabel.leftAnchor.constraint(equalTo: labelContainerView.leftAnchor).isActive = true
         addressLabel.rightAnchor.constraint(equalTo: labelContainerView.rightAnchor).isActive = true
