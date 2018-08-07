@@ -205,6 +205,12 @@ extension MapViewController: GMSMapViewDelegate {
         return restaurantPreviewView
     }
     
+    func mapView(_ mapView: GMSMapView, didTapInfoWindowOf marker: GMSMarker) {
+        let detailsVC = DetailsViewController()
+        detailsVC.bathroomModel = BathroomModel.init(name: "TEST NAME", address: "TEST ADDRESS", distance: 0, time: 0, rating: 0, previewImage: #imageLiteral(resourceName: "toilet"))
+        
+        navigationController?.pushViewController(detailsVC, animated: true)
+    }
     func mapView(_ mapView: GMSMapView, didCloseInfoWindowOf marker: GMSMarker) {
         let customMarker = CustomMarkerView(frame: CGRect(x: 0, y: 0, width: customMarkerWidth, height: customMarkerHeight), borderColor: UIColor.lightGray)
         marker.iconView = customMarker
