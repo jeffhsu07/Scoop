@@ -10,6 +10,8 @@ import UIKit
 
 class DetailsViewController: UIViewController {
     
+    var bathroomModel: BathroomModel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
