@@ -98,17 +98,17 @@ class PreviewView: UIView {
         nameLabel.topAnchor.constraint(equalTo: topAnchor).isActive = true
         nameLabel.leftAnchor.constraint(equalTo: labelContainerView.leftAnchor).isActive = true
         nameLabel.rightAnchor.constraint(equalTo: labelContainerView.rightAnchor).isActive = true
-        nameLabel.heightAnchor.constraint(equalTo: addressLabel.heightAnchor).isActive = true
+        nameLabel.heightAnchor.constraint(equalTo: labelContainerView.heightAnchor, multiplier: 1/3).isActive = true
         
         addressLabel.leftAnchor.constraint(equalTo: labelContainerView.leftAnchor).isActive = true
         addressLabel.rightAnchor.constraint(equalTo: labelContainerView.rightAnchor).isActive = true
-        addressLabel.topAnchor.constraint(equalTo: nameLabel.bottomAnchor, constant: 2).isActive = true
+        addressLabel.topAnchor.constraint(equalTo: nameLabel.bottomAnchor).isActive = true
         addressLabel.heightAnchor.constraint(equalTo: ratingLabel.heightAnchor).isActive = true
         
         ratingLabel.leftAnchor.constraint(equalTo: labelContainerView.leftAnchor).isActive = true
         ratingLabel.rightAnchor.constraint(equalTo: labelContainerView.rightAnchor).isActive = true
-        ratingLabel.topAnchor.constraint(equalTo: addressLabel.bottomAnchor, constant: 2).isActive = true
-        ratingLabel.heightAnchor.constraint(equalTo: addressLabel.heightAnchor).isActive = true
+        ratingLabel.topAnchor.constraint(equalTo: addressLabel.bottomAnchor).isActive = true
+        ratingLabel.heightAnchor.constraint(equalTo: nameLabel.heightAnchor).isActive = true
         
         viewReviewsLabel.topAnchor.constraint(equalTo: labelContainerView.bottomAnchor).isActive = true
         viewReviewsLabel.leftAnchor.constraint(equalTo: leftAnchor).isActive = true
