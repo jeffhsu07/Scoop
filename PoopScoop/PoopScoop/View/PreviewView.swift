@@ -115,18 +115,19 @@ class PreviewView: UIView {
         
         nameLabel.topAnchor.constraint(equalTo: topAnchor).isActive = true
         nameLabel.leftAnchor.constraint(equalTo: labelContainerView.leftAnchor).isActive = true
-        //nameLabel.rightAnchor.constraint(equalTo: labelContainerView.rightAnchor).isActive = true
-        nameLabel.widthAnchor.constraint(equalTo: labelContainerView.widthAnchor, multiplier: 1/3).isActive = true
+        nameLabel.rightAnchor.constraint(equalTo: distanceLabel.leftAnchor).isActive = true
         nameLabel.heightAnchor.constraint(equalTo: labelContainerView.heightAnchor, multiplier: 1/3).isActive = true
         
         distanceLabel.topAnchor.constraint(equalTo: topAnchor).isActive = true
         distanceLabel.leftAnchor.constraint(equalTo: nameLabel.rightAnchor).isActive = true
-        distanceLabel.widthAnchor.constraint(equalTo: nameLabel.widthAnchor).isActive = true
+        distanceLabel.widthAnchor.constraint(equalTo: timeEstimateLabel.widthAnchor).isActive = true
         distanceLabel.heightAnchor.constraint(equalTo: nameLabel.heightAnchor).isActive = true
-        
+        distanceLabel.rightAnchor.constraint(equalTo: timeEstimateLabel.leftAnchor).isActive = true
+
         timeEstimateLabel.topAnchor.constraint(equalTo: topAnchor).isActive = true
+        timeEstimateLabel.rightAnchor.constraint(equalTo: rightAnchor).isActive = true
         timeEstimateLabel.leftAnchor.constraint(equalTo: distanceLabel.rightAnchor).isActive = true
-        timeEstimateLabel.widthAnchor.constraint(equalTo: nameLabel.widthAnchor).isActive = true
+        timeEstimateLabel.widthAnchor.constraint(equalToConstant: 50).isActive = true
         timeEstimateLabel.heightAnchor.constraint(equalTo: nameLabel.heightAnchor).isActive = true
         
         addressLabel.leftAnchor.constraint(equalTo: labelContainerView.leftAnchor).isActive = true
