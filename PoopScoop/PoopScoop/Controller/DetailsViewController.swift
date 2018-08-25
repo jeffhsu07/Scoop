@@ -49,7 +49,7 @@ class DetailsViewController: UIViewController {
         
         containerView.addSubview(labelContainerView)
         labelContainerView.translatesAutoresizingMaskIntoConstraints = false
-        labelContainerView.backgroundColor = UIColor.red
+        //labelContainerView.backgroundColor = UIColor.red
         
         labelContainerView.addSubview(bathroomNameLabel)
         bathroomNameLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -57,6 +57,20 @@ class DetailsViewController: UIViewController {
         bathroomNameLabel.adjustsFontSizeToFitWidth = true
         bathroomNameLabel.textColor = UIColor.black
         bathroomNameLabel.backgroundColor = UIColor.blue
+        
+        labelContainerView.addSubview(distanceLabel)
+        distanceLabel.translatesAutoresizingMaskIntoConstraints = false
+        distanceLabel.text = "0.6 mi"
+        distanceLabel.textColor = UIColor.black
+        distanceLabel.font = UIFont.systemFont(ofSize: 12)
+        distanceLabel.backgroundColor = UIColor.brown
+        
+        labelContainerView.addSubview(timeEstimateLabel)
+        timeEstimateLabel.translatesAutoresizingMaskIntoConstraints = false
+        timeEstimateLabel.text = "5 min"
+        timeEstimateLabel.textColor = UIColor.black
+        timeEstimateLabel.font = UIFont.systemFont(ofSize: 12)
+        timeEstimateLabel.backgroundColor = UIColor.purple
         
         labelContainerView.addSubview(addressLabel)
         addressLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -94,9 +108,21 @@ class DetailsViewController: UIViewController {
         labelContainerView.heightAnchor.constraint(equalTo: containerView.heightAnchor, multiplier: 0.15).isActive = true
         
         bathroomNameLabel.leftAnchor.constraint(equalTo: labelContainerView.leftAnchor).isActive = true
-        bathroomNameLabel.widthAnchor.constraint(equalTo: labelContainerView.widthAnchor, multiplier: 1/3).isActive = true
+        bathroomNameLabel.rightAnchor.constraint(equalTo: distanceLabel.leftAnchor).isActive = true
         bathroomNameLabel.topAnchor.constraint(equalTo: labelContainerView.topAnchor).isActive = true
         bathroomNameLabel.heightAnchor.constraint(equalTo: labelContainerView.heightAnchor, multiplier: 1/3).isActive = true
+        
+        distanceLabel.leftAnchor.constraint(equalTo: bathroomNameLabel.rightAnchor).isActive = true
+        distanceLabel.topAnchor.constraint(equalTo: labelContainerView.topAnchor).isActive = true
+        distanceLabel.widthAnchor.constraint(equalToConstant: 50).isActive = true
+        distanceLabel.rightAnchor.constraint(equalTo: timeEstimateLabel.leftAnchor).isActive = true
+        distanceLabel.heightAnchor.constraint(equalTo: bathroomNameLabel.heightAnchor).isActive = true
+        
+        timeEstimateLabel.leftAnchor.constraint(equalTo: distanceLabel.rightAnchor).isActive = true
+        timeEstimateLabel.topAnchor.constraint(equalTo: labelContainerView.topAnchor).isActive = true
+        timeEstimateLabel.widthAnchor.constraint(equalToConstant: 50).isActive = true
+        timeEstimateLabel.rightAnchor.constraint(equalTo: labelContainerView.rightAnchor).isActive = true
+        timeEstimateLabel.heightAnchor.constraint(equalTo: bathroomNameLabel.heightAnchor).isActive = true
         
         addressLabel.leftAnchor.constraint(equalTo: labelContainerView.leftAnchor).isActive = true
         addressLabel.rightAnchor.constraint(equalTo: labelContainerView.rightAnchor).isActive = true
